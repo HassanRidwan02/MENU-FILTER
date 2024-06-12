@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+}
+
+.individual-menu {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.individual-menu .food{
+    flex-basis: 40%;
+}
+
+.individual-menu .description{
+    flex-basis: 80%;
+}
